@@ -1,20 +1,22 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Sarabun', sans-serif;
-    /* font-size: 20px; */
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 :root {
   --ColorEncabezado: #2b0a79;
   --ColorFuente: #c3d618;
   --ColorLink: #09bac7;
 }
 
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;    
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+  }
+     
+
 body {
-  background-color: var(--ColorFondo);
-  /* font-family: sans-serif; */
+  background-color: var(--ColorFondo);  
   padding: 95px 25px 0;
   padding-bottom: 45px;
   }
@@ -31,16 +33,12 @@ body {
   
 }
 
-
-/***** nav de cabecera *****/
 .nav-cabecera {
   display: flex;
   justify-content: space-around;
   justify-content: space-between;
   margin: 0 auto;
 }
-
-/* Contenedor del Logo */
 .header .logo img{
   width: auto;
   height: 80px;
@@ -65,7 +63,7 @@ body {
 .nav-menu-item {
   font-size: 18px;
   margin: 0 10px;
-  line-height: 47px;/*con esto controlo la alineacion vertical!*/
+  line-height: 47px;
   width: max-content;
   transition: all 0.3s;
   display: flex;
@@ -79,7 +77,12 @@ body {
   padding: 18px 12px;
   transition: all 0.3s;
 }
-
+.nav-menu-link:hover {
+  color: var(--ColorLink);
+  transform: scale(1.5);
+  /* transition: 0.5s; */  
+  }
+  
 
 
 
