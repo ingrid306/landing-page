@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 :root {
-  --ColorEncabezado: #2b0a79;
+  --ColorEncabezado:#2b0a79 ;
   --ColorFuente: #c3d618;
-  --ColorLink: #09bac7;
+  --ColorLink: #09bac7  ; 
+  --Colortexto:#040505 ;
+ --Colorfondo:#a969dd ;
 }
 
 *{
@@ -16,7 +18,7 @@
      
 
 body {
-  background-color: var(--ColorFondo);  
+  background-color: var(--Colorfondo);  
   padding: 95px 25px 0;
   padding-bottom: 45px;
   }
@@ -84,6 +86,69 @@ body {
   }
   
 
+/*================= portada ====================*/
+
+#portada {
+  margin-top: 80px;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 70px 0;
+}
+
+.portada {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  width: 50%;
+}
+
+
+.portada h1{
+  font-size: 48px;
+  font-weight: 800px;
+  width: 80%;
+  min-width: 500px;  
+}
+
+.portada p{
+  font-size: 14px;
+  width: 70%;
+  color: var(--Colortexto);
+}
+
+
+.portada a {
+  color: var(--Colortexto);
+  background-color: var(--ColorEncabezado);
+  width: 120px;
+  padding: 8px 0;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.portada-card img {
+  width: 600px;
+ 
+}
+  
+/*================= INFO ====================*/
+
+
+#info p {
+background-color: 
+  var(--ColorEncabezado);
+    display: flex;
+    flex-direction: ;
+    align-items: center;
+    text-align: justify;
+    justify-content: center;
+    width: 100%;
+    color: (--Colortexto) 
+  }
 
 
 
