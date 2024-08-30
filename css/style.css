@@ -92,7 +92,6 @@ body {
   margin-top: 80px;
   max-width: 1200px;
   display: flex;
-  justify-content: space-around;
   align-items: flex-start;
   padding: 70px 0;
   
@@ -100,18 +99,13 @@ body {
 }
 
 .portada {
-  justify-content: space-around;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
   gap: 15px;
   width: 50%;
 }
 
 
 .portada h1{
-  justify-content: space-around;
-  align-items: flex-start;
+
   font-size: 48px;
   font-weight: 800px;
   width: 80%;
@@ -123,31 +117,22 @@ body {
   width: 70%;
   color: var(--Colortexto);
   align-items: flex-start;
-  justify-content: space-around;
- 
-
-
+  
 }
 
 
-.portada a {
-  color: var(--Colortexto);
-  background-color: var(--ColorEncabezado);
-  width: 120px;
-  padding: 8px 0;
-  text-align: center;
-  border-radius: 8px;
+.portad button {
+  color:--ColorEncabezado ;
+  display: flex;
+  border-radius: 10px;
   font-size: 14px;
-  flex-direction: row-reverse;
-   justify-content: center;
+  justify-content: space-between;  
+  gap: 10px;
+  
 }
 
 .portada-card img {
-  width: 600px;
-  justify-content: space-around;
-  align-items: flex-start;
-
- 
+  width: 600px; 
 }
   
 /*================= INFO ====================*/
@@ -155,15 +140,11 @@ body {
 
 #info p {
 background-color: 
-  var(--ColorEncabezado);
-    display: flex;
-    flex-direction:column;
+   padding: 20px 50;
     text-align: justify;
     width: 100%;
     color: (--Colortexto) 
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-end;
+    Justify-content: center; 
 
 
 
