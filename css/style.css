@@ -121,14 +121,19 @@ body {
 }
 
 
-.portad button {
-  color:--ColorEncabezado ;
+.portada button {
+  padding:5px;
+  color:--ColorEncabezado;
   display: flex;
   border-radius: 10px;
   font-size: 14px;
-  justify-content: space-between;  
-  gap: 10px;
-  
+  border-radius: 10;
+   gap:10px;
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  -ms-border-radius: 10;
+  -o-border-radius: 10;
+  justify-content: space-between;
 }
 
 .portada-card img {
