@@ -19,8 +19,9 @@
 
 body {
   background-color: var(--Colorfondo);  
-  padding: 95px 25px 0;
+  padding: 70px 60px 0;
   padding-bottom: 45px;
+ 
   }
 
 .header {
@@ -92,14 +93,14 @@ body {
   margin-top: 80px;
   max-width: 1200px;
   display: flex;
-  align-items: flex-start;
-  padding: 70px 0;
+  justify-content:space-evenly ;
+  padding: 60px;
   
 
 }
 
 .portada {
-  gap: 15px;
+  gap: 30px;
   width: 50%;
 }
 
@@ -122,17 +123,13 @@ body {
 
 
 .portada button {
-  padding:5px;
+  
   color:--ColorEncabezado;
   display: flex;
   border-radius: 10px;
   font-size: 14px;
   border-radius: 10;
-   gap:10px;
-  -webkit-border-radius: 10;
-  -moz-border-radius: 10;
-  -ms-border-radius: 10;
-  -o-border-radius: 10;
+   gap:10px;  
   justify-content: space-between;
 }
 
@@ -143,16 +140,11 @@ body {
 /*================= INFO ====================*/
 
 
-#info p {
-background-color: 
-   padding: 20px 50;
-    text-align: justify;
-    width: 100%;
-    color: (--Colortexto) 
-    Justify-content: center; 
-
-
-
+.info p {
+  padding: 60px;
+text-align: justify;  
+color: (--Colortexto) 
+Justify-content: center; 
   }
 
 
