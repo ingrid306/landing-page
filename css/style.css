@@ -90,18 +90,19 @@ body {
 /*================= portada ====================*/
 
 #portada {
+  color: var(--ColorEncabezado);
   margin-top: 80px;
   max-width: 1200px;
   display: flex;
-  justify-content:space-evenly ;
+  justify-content:space-between;
   padding: 60px;
   
 
 }
 
 .portada {
-  gap: 30px;
-  width: 50%;
+  gap: 20px;
+  width: 60%;
 }
 
 
@@ -111,27 +112,32 @@ body {
   font-weight: 800px;
   width: 80%;
   min-width: 500px;  
+  margin-top: 15px;
 }
 
 .portada p{
   font-size: 14px;
   width: 70%;
-  color: var(--Colortexto);
-  align-items: flex-start;
+  color: var(--Colortexto);  
+  margin-top: 10px;
   
 }
 
 
 .portada button {
-  
-  color:--ColorEncabezado;
-  display: flex;
-  border-radius: 10px;
+  padding: 5px;
+  background-color: var(--ColorEncabezado);
+  color: var(--ColorFuente);
+  display: inline;
   font-size: 14px;
-  border-radius: 10;
-   gap:10px;  
+  border-radius: 10px;
+  gap: 10px;  
   justify-content: space-between;
+  margin-top: 10px;
+  text-align: center;
 }
+
+  
 
 .portada-card img {
   width: 600px; 
