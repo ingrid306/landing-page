@@ -126,10 +126,9 @@ body {
 
 .portada button {
   padding: 5px;
-  background-color: var(--ColorEncabezado);
-  color: var(--ColorFuente);
+  color: var(--Colortexto);
   display: inline;
-  font-size: 14px;
+  font-size: 15px;
   border-radius: 10px;
   gap: 10px;  
   justify-content: space-between;
@@ -137,7 +136,10 @@ body {
   text-align: center;
 }
 
-  
+.active-btn {
+  background-color: var(--ColorLink);
+}
+
 
 .portada-card img {
   width: 600px; 
