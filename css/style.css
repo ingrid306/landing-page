@@ -8,18 +8,17 @@
 }
 
 *{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;    
-    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;      
+    font-family: "Poppins", sans-serif;    
     text-decoration: none;
     list-style-type: none;
-  }
+    margin: 0;
+    padding: 0;
      
 
 body {
-  background-color: var(--Colorfondo);  
-  padding: 70px 0; 
+  background-color: var(--Colorfondo); 
+  
  
   }
 
@@ -44,7 +43,7 @@ body {
 .header .logo img{
   width: auto;
   height: 80px;
-   align-content:center;
+  align-content:center;
   transition: all 0.3s;
 }
 
@@ -270,9 +269,10 @@ footer {
   background-color: var(--ColorEncabezado);
   color: var(--ColorFuente);
   text-align: center;
-  width: 100%; 
-  padding: 20px;
+  width: 100%;  
   font-size: 18px;
+  bottom: 0;
+  padding: 20px;;
   }
    
  
