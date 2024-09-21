@@ -8,12 +8,13 @@
 }
 
 *{
+  margin: 0;
+    padding: 0;
     box-sizing: border-box;      
     font-family: "Poppins", sans-serif;    
     text-decoration: none;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+}
      
 
 body {
@@ -149,7 +150,7 @@ body {
 .info p {
   padding: 60px;
 text-align: justify;  
-color: (--Colortexto) 
+color: (--Colortexto); 
 Justify-content: center; 
   }
 
