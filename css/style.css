@@ -25,7 +25,7 @@ body {
 
 .header {
   background-color: var(--ColorEncabezado);
-  position: fixed;
+  position: fixed;  
   height: 120px;
   width: 100%;
   top: 0;
@@ -271,7 +271,7 @@ footer {
   color: var(--ColorFuente);
   text-align: center;
   width: 100%;  
-  font-size: 18px;
+  font-size: 15px;
   bottom: 0;
   padding: 20px;;
   }
